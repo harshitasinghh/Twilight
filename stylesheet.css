@@ -1,0 +1,109 @@
+*{margin:0; padding:0;}
+body{font-family: 'Nunito', sans-serif;}
+.container{width:100%;height:auto;}
+header{width:100%;height:100px;color:#af9453; line-height:100px;float:left; position:fixed; z-index:99999; background:#ffffff;}
+.logo{width:50%;height:100px;float:left; }
+.logoimage{width:23%;height:100px;background-image:url(images/logo.jpg); background-repeat:no-repeat; background-position:right;float:left;}
+.logotext{width:77%;height:100px;float:left;font-size:15px;color:#af9453;}
+nav{float:left;width:47%;height:100px;line-height:100px;text-align:center;margin-right:3%;}
+nav ul li{width:20%; float:left; list-style:none;}
+nav ul li a{text-decoration:none;color:#af9453; font-size:13px;}
+.banner{width:100%; height:700px; clear:both;}
+.parallax {background-image:url(images/c.jpe);opacity:0.8;min-height: 700px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover; clear:both;}
+.imagetext{width:50%; height:100px; text-align:center; font-size:50px; letter-spacing:3px;color:#ffffff; margin-left:25%;}
+.dash{width:100%;height:80px; background:#ffffff; clear:both;}
+.box{width:100%; height:600px; float:left;}
+.boxdash{width:6%; height:600px; float:left;}
+.boxtext{width:29%; height:600px; background:#af9453; float:left; font-size:16px; color:#ffffff; text-align:center;}
+.boxtext1{width:100%; height:50px; font-size:30px; letter-spacing:14px; color:#ffffff; margin-top:33%; text-align:center;}
+.boxtext2{width:60%; height:80px; font-size:16px; color:#ffffff; background-image:url(images/leaf.jpg); background-repeat:no-repeat; margin-left:40%; margin-top:8%;}
+.boxtext3{width:100%; height:40px; font-size:20px; letter-spacing:2px; color:#ffffff; }
+.boxtext4{width:100%; height:80px; font-size:16px; color:#ffffff; margin-top:10%;}
+.button{width:70%;height:47px;color:#ffffff;font-size:16px; letter-spacing:1px;border:1px solid #ffffff;background:#af9453;margin-top:20px;}
+.button:hover{color:#af9453; background:#ffffff; border:none; transition:all 1s;}
+.boximage{width:53%; height:600px; background-size:cover;float:left;}
+.bash{width:100%; height:30px;}
+.quotebox{width:100%; height:250px;text-align:center; clear:both;}
+.quote{width:88%; height:150px; margin:0 auto; font-size:28px; color:#af9453;}
+.quote2{width:88%; height:50px; font-size:16px;  color:#af9453;margin:0 auto;}
+.boximagelast{width:88%; height:600px; background:#5F2FD5; background-image:url(images/b.jpg); opacity:0.7; background-size:cover;margin:0 auto; float:left;}
+footer{width:100%; height:200px; background:#af9453; color:#ffffff; }
+.footer1{width:100%; height:62px;}
+.footer2{width:17.5%; height:125px; margin-left:6%; float:left; font-size:16px; text-align:center;}
+
+
+@media screen and (max-width: 920px) and (min-width:768px){
+*{margin:0; padding:0;}
+body{font-family: 'Nunito', sans-serif;}
+.container{width:100%;height:auto;}
+header{width:100%;height:100px;color:#af9453; line-height:100px;float:left; position:fixed; z-index:99999; background:#ffffff;}
+.logo{width:50%;height:100px;float:left; }
+.logoimage{width:23%;height:100px;background-image:url(images/logo.jpg); background-repeat:no-repeat; background-position:right;float:left;}
+.logotext{width:77%;height:100px;float:left;font-size:15px;color:#af9453;}
+nav{float:left;width:47%;height:100px;line-height:100px;text-align:center;margin-right:3%;}
+nav ul li{width:20%; float:left; list-style:none;}
+nav ul li a{text-decoration:none;color:#af9453; font-size:13px;}
+.banner{width:100%; height:700px; clear:both;}
+.parallax {background-image:url(images/c.jpe);opacity:0.8;min-height: 700px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover; clear:both;}
+.imagetext{width:50%; height:100px; text-align:center; font-size:50px; letter-spacing:3px;color:#ffffff; margin-left:25%;}
+.dash{width:100%;height:80px; background:#ffffff; clear:both;}
+.box{width:100%; height:600px; float:left;}
+.boxdash{width:6%; height:600px; float:left;}
+.boxtext{width:29%; height:600px; background:#af9453; float:left; font-size:16px; color:#ffffff; text-align:center;}
+.boxtext1{width:100%; height:50px; font-size:24px; letter-spacing:14px; color:#ffffff; margin-top:33%; text-align:center;}
+.boxtext2{width:60%; height:80px; font-size:16px; color:#ffffff; background-image:url(images/leaf.jpg); background-repeat:no-repeat; margin-left:40%; margin-top:8%;}
+.boxtext3{width:100%; height:40px; font-size:18px; letter-spacing:2px; color:#ffffff; }
+.boxtext4{width:100%; height:80px; font-size:15px; color:#ffffff; margin-top:10%;}
+.button{width:70%;height:47px;color:#ffffff;font-size:15px; letter-spacing:1px;border:1px solid #ffffff;background:#af9453;margin-top:20px;}
+.button:hover{color:#af9453; background:#ffffff; border:none; transition:all 1s;}
+.boximage{width:53%; height:600px; background-size:cover;float:left;}
+.bash{width:100%; height:30px;}
+.quotebox{width:100%; height:200px;text-align:center; clear:both;}
+.quote{width:88%; height:100px; margin:0 auto; font-size:24px; color:#af9453;}
+.quote2{width:88%; height:50px; font-size:14px;  color:#af9453;margin:0 auto;}
+.boximagelast{width:88%; height:600px; background:#5F2FD5; background-image:url(images/b.jpg); opacity:0.7; background-size:cover;margin:0 auto; float:left;}
+footer{width:100%; height:200px; background:#af9453; color:#ffffff; }
+.footer1{width:100%; height:62px;}
+.footer2{width:17.5%; height:125px; margin-left:6%; float:left; font-size:14px; text-align:center;}
+
+	
+}
+
+@media screen and (max-width: 767px) and (min-width:480px){
+*{margin:0; padding:0;}
+body{font-family: 'Nunito', sans-serif;}
+.container{width:100%;height:auto;}
+header{width:100%;height:100px;color:#af9453; line-height:100px;float:left; position:fixed; z-index:99999; background:#ffffff;}
+.logo{width:50%;height:100px;float:left; }
+.logoimage{width:23%;height:100px;background-image:url(images/logo.jpg); background-repeat:no-repeat; background-position:right;float:left;}
+.logotext{width:77%;height:100px;float:left;font-size:15px;color:#af9453;}
+nav{float:left;width:47%;height:100px;line-height:100px;text-align:center;margin-right:3%;}
+nav ul li{width:20%; float:left; list-style:none;}
+nav ul li a{text-decoration:none;color:#af9453; font-size:13px;}
+.banner{width:100%; height:500px; clear:both;}
+.parallax {background-image:url(images/c.jpe);opacity:0.8;min-height:clear:both; 700px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover; clear:both;}
+.imagetext{width:50%; height:100px; text-align:center; font-size:50px; letter-spacing:3px;color:#ffffff; margin-left:25%;}
+.dash{width:100%;height:80px; background:#ffffff; clear:both;}
+.box{width:100%; height:600px; float:left;}
+.boxdash{width:6%; height:600px; float:left;}
+.boxtext{width:29%; height:600px; background:#af9453; float:left; font-size:16px; color:#ffffff; text-align:center;}
+.boxtext1{width:100%; height:50px; font-size:24px; letter-spacing:14px; color:#ffffff; margin-top:33%; text-align:center;}
+.boxtext2{width:60%; height:80px; font-size:16px; color:#ffffff; background-image:url(images/leaf.jpg); background-repeat:no-repeat; margin-left:40%; margin-top:8%;}
+.boxtext3{width:100%; height:40px; font-size:18px; letter-spacing:2px; color:#ffffff; }
+.boxtext4{width:100%; height:80px; font-size:15px; color:#ffffff; margin-top:10%;}
+.button{width:70%;height:47px;color:#ffffff;font-size:15px; letter-spacing:1px;border:1px solid #ffffff;background:#af9453;margin-top:20px;}
+.button:hover{color:#af9453; background:#ffffff; border:none; transition:all 1s;}
+.boximage{width:53%; height:600px; background-size:cover;float:left;}
+.bash{width:100%; height:30px;}
+.quotebox{width:100%; height:200px;text-align:center; clear:both;}
+.quote{width:88%; height:100px; margin:0 auto; font-size:24px; color:#af9453;}
+.quote2{width:88%; height:50px; font-size:14px;  color:#af9453;margin:0 auto;}
+.boximagelast{width:88%; height:600px; background:#5F2FD5; background-image:url(images/b.jpg); opacity:0.7; background-size:cover;margin:0 auto; float:left;}
+footer{width:100%; height:200px; background:#af9453; color:#ffffff; }
+.footer1{width:100%; height:62px;}
+.footer2{width:17.5%; height:125px; margin-left:6%; float:left; font-size:14px; text-align:center;}
+
+}
+
+@media screen and (max-width: 479px) and (min-width:320px){
+}
